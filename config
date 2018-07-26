@@ -1,0 +1,165 @@
+
+Entering CLI Mode type 'exit' to return or 'help'
+
+# diff
+
+# version
+# Betaflight / OMNIBUSF4SD (OBSD) 3.4.0 Jul  2 2018 / 12:33:04 (463d7aa1c) MSP API: 1.39
+
+board_name OMNIBUSF4SD
+manufacturer_id
+
+# name
+name Curse
+
+# resources
+resource MOTOR 6 NONE
+resource PWM 5 NONE
+resource CAMERA_CONTROL 1 A08
+resource PINIO 1 C08
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -RX_PARALLEL_PWM
+feature RX_SERIAL
+feature SOFTSERIAL
+feature TELEMETRY
+feature AIRMODE
+
+# beeper
+beeper -ON_USB
+
+# beacon
+
+# map
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 2 32 115200 57600 0 115200
+serial 5 1 19200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100 0
+aux 1 1 1 1800 2100 0
+aux 2 13 2 1700 2100 0
+
+# adjrange
+adjrange 0 0 1 900 1200 12 1 0 0
+adjrange 1 0 1 1400 1675 12 1 0 0
+
+# rxrange
+rxrange 0 987 2011
+rxrange 1 987 2011
+rxrange 2 987 2011
+rxrange 3 987 2011
+
+# vtx
+
+# rxfail
+rxfail 3 h
+
+# master
+set mag_hardware = NONE
+set baro_hardware = NONE
+set min_check = 1010
+set rssi_channel = 8
+set rc_interp_ch = RPYT
+set rc_smoothing_type = FILTER
+set serialrx_provider = SBUS
+set blackbox_p_ratio = 64
+set motor_pwm_protocol = DSHOT600
+set failsafe_delay = 5
+set bat_capacity = 1040
+set vbat_scale = 111
+set ibata_scale = 450
+set yaw_motors_reversed = ON
+set small_angle = 180
+set deadband = 2
+set yaw_deadband = 2
+set pid_process_denom = 1
+set osd_rssi_alarm = 0
+set osd_cap_alarm = 0
+set osd_alt_alarm = 0
+set osd_vbat_pos = 2445
+set osd_rssi_pos = 2426
+set osd_tim_1_pos = 54
+set osd_tim_2_pos = 2438
+set osd_flymode_pos = 2433
+set osd_throttle_pos = 225
+set osd_vtx_channel_pos = 377
+set osd_ah_pos = 200
+set osd_current_pos = 406
+set osd_mah_drawn_pos = 2456
+set osd_craft_name_pos = 2060
+set osd_gps_speed_pos = 218
+set osd_gps_lon_pos = 82
+set osd_gps_lat_pos = 65
+set osd_gps_sats_pos = 51
+set osd_home_dir_pos = 302
+set osd_home_dist_pos = 303
+set osd_compass_bar_pos = 266
+set osd_altitude_pos = 405
+set osd_pid_roll_pos = 423
+set osd_pid_pitch_pos = 455
+set osd_pid_yaw_pos = 487
+set osd_debug_pos = 1
+set osd_power_pos = 321
+set osd_pidrate_profile_pos = 2401
+set osd_warnings_pos = 2410
+set osd_avg_cell_voltage_pos = 403
+set osd_pit_ang_pos = 257
+set osd_rol_ang_pos = 289
+set osd_battery_usage_pos = 392
+set osd_disarmed_pos = 2380
+set osd_nheading_pos = 311
+set osd_nvario_pos = 279
+set osd_esc_tmp_pos = 82
+set osd_esc_rpm_pos = 83
+set osd_stat_max_spd = OFF
+set osd_stat_max_alt = ON
+set vtx_band = 1
+set vtx_low_power_disarm = ON
+set vtx_freq = 5865
+set pinio_config = 129111
+set pinio_box = 0255255255
+
+# profile
+profile 0
+
+set dterm_notch_cutoff = 0
+set anti_gravity_gain = 3500
+set setpoint_relax_ratio = 100
+set dterm_setpoint_weight = 20
+set iterm_relax = RP
+set iterm_relax_cutoff = 10
+set throttle_boost = 8
+set d_yaw = 20
+
+# rateprofile
+rateprofile 0
+
+set roll_rc_rate = 120
+set pitch_rc_rate = 120
+set yaw_rc_rate = 175
+set roll_expo = 15
+set pitch_expo = 15
+set yaw_expo = 16
+set roll_srate = 75
+set pitch_srate = 67
+set yaw_srate = 43
+set tpa_rate = 20
+set tpa_breakpoint = 1050
+
+# 
